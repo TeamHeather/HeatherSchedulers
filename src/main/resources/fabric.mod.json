@@ -11,10 +11,10 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "io.github.pepe3012.scheduler.client.SchedulerClient"
+      "org.heather.scheduler.internal.SchedulerClientModInitializer"
     ],
     "main": [
-      "io.github.pepe3012.scheduler.Scheduler"
+      "org.heather.scheduler.internal.SchedulerModInitializer"
     ]
   },
   "mixins": [
