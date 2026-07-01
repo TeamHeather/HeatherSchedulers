@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "scheduler",
+  "version": "${version}",
+  "name": "Scheduler",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/scheduler/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.pepe3012.scheduler.client.SchedulerClient"
+    ],
+    "main": [
+      "io.github.pepe3012.scheduler.Scheduler"
+    ]
+  },
+  "mixins": [
+    "scheduler.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
